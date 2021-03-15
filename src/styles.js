@@ -122,6 +122,10 @@ export const StyledContact = styled(motion.div)`
     button{
         width: 20rem; 
      }
+     h2 {
+         font-size: 1rem;
+         margin: 0 0 0 1rem;
+     }
   `;
 export const StyledInput = styled.input`
     display: flex;
