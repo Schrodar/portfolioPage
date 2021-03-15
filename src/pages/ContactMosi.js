@@ -36,7 +36,11 @@ const ContactMosi = () => {
             <StyledForm 
             onSubmit={ formHandler }
             variants={ pageAnimation } >
-            <h1 id="waitandse">Contact me  <span id="smile">: )</span>  </h1>
+ 
+                 <div>            
+                    <h1 id="waitandse">Contact me  <span id="smile">: )</span>  </h1>
+                    <h2>Phone  070 493 51 30</h2>
+                </div>
                 <StyledInput type="text" placeholder="Name" />
                 <StyledInput type="text" placeholder="Email" />
                 <StyledInput type="text" placeholder="Confirm Email" />
