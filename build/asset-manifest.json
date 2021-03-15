@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.js": "/static/js/main.86a0c7fd.chunk.js",
+    "main.js.map": "/static/js/main.86a0c7fd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.eeec70fc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.eeec70fc.js.map",
+    "static/js/2.c8eca074.chunk.js": "/static/js/2.c8eca074.chunk.js",
+    "static/js/2.c8eca074.chunk.js.map": "/static/js/2.c8eca074.chunk.js.map",
+    "static/js/3.8407a230.chunk.js": "/static/js/3.8407a230.chunk.js",
+    "static/js/3.8407a230.chunk.js.map": "/static/js/3.8407a230.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.c8eca074.chunk.js.LICENSE.txt": "/static/js/2.c8eca074.chunk.js.LICENSE.txt",
+    "static/media/EGNAVAAL.c1341680.jpg": "/static/media/EGNAVAAL.c1341680.jpg",
+    "static/media/We.8fe6b8eb.jpg": "/static/media/We.8fe6b8eb.jpg",
+    "static/media/blacknwhite.5c3a1fd4.jpg": "/static/media/blacknwhite.5c3a1fd4.jpg",
+    "static/media/covid.bcfd64cf.jpg": "/static/media/covid.bcfd64cf.jpg",
+    "static/media/diaphragm.db801491.svg": "/static/media/diaphragm.db801491.svg",
+    "static/media/gasp.937d4d6d.jpg": "/static/media/gasp.937d4d6d.jpg",
+    "static/media/gasp3.6fd5ed46.jpg": "/static/media/gasp3.6fd5ed46.jpg",
+    "static/media/home2.a65a4256.png": "/static/media/home2.a65a4256.png",
+    "static/media/mamma.6893a3a7.jpg": "/static/media/mamma.6893a3a7.jpg",
+    "static/media/money.72da7c48.svg": "/static/media/money.72da7c48.svg",
+    "static/media/räv.e781b07e.jpg": "/static/media/räv.e781b07e.jpg",
+    "static/media/superMosi.31196e5e.jpg": "/static/media/superMosi.31196e5e.jpg",
+    "static/media/teamwork.aa71db2e.svg": "/static/media/teamwork.aa71db2e.svg",
+    "static/media/work.34e0b0ff.jpg": "/static/media/work.34e0b0ff.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eeec70fc.js",
+    "static/js/2.c8eca074.chunk.js",
+    "static/js/main.86a0c7fd.chunk.js"
+  ]
+}
