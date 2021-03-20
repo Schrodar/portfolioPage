@@ -37,7 +37,7 @@ const ContactMosi = () => {
                     <h1 id="waitandse">Contact me  <span id="smile">: )</span>  </h1>
                     <h2>Phone  070 493 51 30</h2>
                 </div>
-                <input type="hidden" name="contact"/>
+                <input type="hidden" value="contact" name="form-name"/>
                 <StyledInput type="text" placeholder="Name" name="first-name" />
                 <StyledInput type="text" placeholder="Email" name="email" />
                 <StyledInput type="text" placeholder="Confirm Email" name="email" />
