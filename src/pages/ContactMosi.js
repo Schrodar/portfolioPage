@@ -29,15 +29,20 @@ const ContactMosi = () => {
         style={{background: "#080707"}} 
         animate="show">
 
-          <StyledForm name="contact" method="post" data-netlify="true"
-            onSubmit="submit"
-            variants={ pageAnimation } >
- 
-                 <div>            
+        
+                <div>            
                     <h1 id="waitandse">Contact me  <span id="smile">: )</span>  </h1>
                     <h2>Phone  070 493 51 30</h2>
                 </div>
+
+                <StyledForm 
+                name="contact" 
+                method="post"
+                data-netlify="true"
+                onSubmit="submit"
+                variants={ pageAnimation } >
                 <input type="hidden" name="form-name" value="contact"/>
+                
                 <div>
                     <label htmlFor="name">
                         <StyledInput id="name" type="text" placeholder="Name" name="first-name" />
@@ -60,6 +65,7 @@ const ContactMosi = () => {
                 </div>
                 <button type="submit"> Go For It</button>
             </StyledForm>
+
             <StyledLine></StyledLine>
 
             <motion.div>
