@@ -29,7 +29,7 @@ const ContactMosi = () => {
         style={{background: "#080707"}} 
         animate="show">
 
-           <StyledForm name="contact" methood="post" data-netlify="true"
+          <StyledForm name="contact" method="post" data-netlify="true"
             onSubmit="submit"
             variants={ pageAnimation } >
  
@@ -37,15 +37,29 @@ const ContactMosi = () => {
                     <h1 id="waitandse">Contact me  <span id="smile">: )</span>  </h1>
                     <h2>Phone  070 493 51 30</h2>
                 </div>
-                <input type="hidden" value="contact" name="form-name"/>
-                <StyledInput type="text" placeholder="Name" name="first-name" />
-                <StyledInput type="text" placeholder="Email" name="email" />
-                <StyledInput type="text" placeholder="Confirm Email" name="email" />
-                <StyledInput type="text" placeholder="Phone" name="phone" />
-                <StyledSpecialInput type="text" placeholder="Message" name="comments" />
+                <input type="hidden" name="form-name" value="contact"/>
+                <div>
+                    <label htmlFor="name">
+                        <StyledInput id="name" type="text" placeholder="Name" name="first-name" />
+                    </label>
+                </div>
+                <div>
+                    <label htmlFor="email">
+                       <StyledInput type="text" placeholder="Email" name="email" id="email" />
+                    </label>
+                </div>
+                <div>
+                    <label htmlFor="phone">
+                        <StyledInput id="phone" type="text" placeholder="Phone" name="phone" />
+                    </label>
+                </div>
+                <div>
+                    <label htmlFor="comments">
+                    <StyledSpecialInput id="comments" type="text" placeholder="Message" name="comments" />
+                    </label>
+                </div>
                 <button type="submit"> Go For It</button>
             </StyledForm>
-
             <StyledLine></StyledLine>
 
             <motion.div>
