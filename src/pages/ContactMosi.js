@@ -20,10 +20,6 @@ import We from "../img/We.jpg";
 
 const ContactMosi = () => {
 
-    const formHandler = (e) => {
-        e.preventDefault();
-        console.log("Nikkko i neeed help cant NOD JS yet");
-    }
 
     return(
         <StyledContact 
@@ -33,20 +29,21 @@ const ContactMosi = () => {
         style={{background: "#080707"}} 
         animate="show">
 
-            <StyledForm 
-            onSubmit={ formHandler }
+           <StyledForm name="contact" methood="post" data-netlify="true"
+            onSubmit="submit"
             variants={ pageAnimation } >
  
                  <div>            
                     <h1 id="waitandse">Contact me  <span id="smile">: )</span>  </h1>
                     <h2>Phone  070 493 51 30</h2>
                 </div>
-                <StyledInput type="text" placeholder="Name" />
-                <StyledInput type="text" placeholder="Email" />
-                <StyledInput type="text" placeholder="Confirm Email" />
-                <StyledInput type="text" placeholder="Phone" />
-                <StyledSpecialInput type="text" placeholder="Message "/>
-                <button> Go For It</button>
+                <input type="hidden" name="contact"/>
+                <StyledInput type="text" placeholder="Name" name="first-name" />
+                <StyledInput type="text" placeholder="Email" name="email" />
+                <StyledInput type="text" placeholder="Confirm Email" name="email" />
+                <StyledInput type="text" placeholder="Phone" name="phone" />
+                <StyledSpecialInput type="text" placeholder="Message" name="comments" />
+                <button type="submit"> Go For It</button>
             </StyledForm>
 
             <StyledLine></StyledLine>
