@@ -12,7 +12,7 @@ const FaqSection = () => {
 
     return(
         <Faq>
-            <span>FAQ</span>
+            <span id="pushDown">FAQ</span>
             <AnimateSharedLayout>
                 <div className="question">
                     <Toggle layoute title="Who am I"> 
