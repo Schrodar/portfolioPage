@@ -62,6 +62,10 @@ span{
     font-family: 'Inter', sans-serif;
     font-weight:lighter;
 }
+// faq fix
+#pushDown{
+margin-bottom: 1.5rem;
+}
 
 a {
 font-size: 1.1.rem;
