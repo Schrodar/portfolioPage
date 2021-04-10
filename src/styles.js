@@ -136,7 +136,7 @@ export const StyledInput = styled.input`
     outline: none;
     width: 20rem; 
     height: 2rem;
-    background: #aab4ca;
+    background: white;
 `;
 
 export const StyledSpecialInput = styled.textarea`
@@ -148,7 +148,7 @@ export const StyledSpecialInput = styled.textarea`
     outline: none;
     width: 20rem;
     height: 10rem; 
-    background: #aab4ca;;
+    background: white;
 `;
 
 
