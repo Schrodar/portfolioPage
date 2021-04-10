@@ -30,17 +30,16 @@ const ContactMosi = () => {
         animate="show">
 
                 <div>
-                <div>            
-                    <h1 id="waitandse">Contact me  <span id="smile">: )</span>  </h1>
-                    <h2>Phone  070 493 51 30</h2>
-                </div>
-
                 <StyledForm 
                 name="contact" 
                 method="POST"
                 data-netlify="true"
                 onSubmit="submit"
                 variants={ pageAnimation } >
+                 <div>            
+                    <h1 id="waitandse">Contact me  <span id="smile">: )</span>  </h1>
+                    <h2>Phone  070 493 51 30</h2>
+                </div>
                 <input type="hidden" name="form-name" value="contact"/>
                 
                 <div>
