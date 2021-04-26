@@ -1,5 +1,5 @@
 import React from "react";
-import mamma from "../img/mamma.jpg";
+import mamma from "../img/mamma2.jpg";
 
 // import styled
 import { About, Description, HiddenDiv, Image } from "../styles";
